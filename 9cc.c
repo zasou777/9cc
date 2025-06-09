@@ -28,6 +28,7 @@ int main(int argc, char **argv){
 		}
 		
 		fprintf(stderr, "予期しない文字です: '%c'\n", *p);
+		return 1;
 	}
 	
 	
